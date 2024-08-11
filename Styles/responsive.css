@@ -1,0 +1,62 @@
+@media screen and (max-width: 576px) {
+    .navbar-container{
+        align-items: center;
+        border: 2px solid red;
+    }
+    .nav-links{
+        display: none;
+    }
+    .bar-menu{
+        display: block;
+        font-size: 35px;
+    }
+
+    /* banner responsive part */
+    .banner-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .banner-details {
+        width:95%;
+        padding-left: 20px;
+        justify-content: center;
+        margin-bottom: 20px;
+        border: 2px solid red;
+    }
+    .banner-details h1 {
+        color: white;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .banner-image-container {
+        width: 100%;
+        border: 2px solid red;
+    }
+    .btn-secondary {
+        padding: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .btn-3rd {
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .banner-image-first-data {
+        width: 150px;
+        height: 80px;
+        top: 270px;
+        left: 10px;
+        padding: 5px 10px;
+    }
+    .banner-image-second-data {
+        width: 170px;
+        height: 80px;
+        left: 200px;
+        top: 60px;
+    
+    }
+    .banner-image {
+        left: 20px;
+        width: 100%;
+    }
+}
