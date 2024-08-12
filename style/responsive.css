@@ -1,0 +1,231 @@
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-container,
+    .footer-content
+    {
+        flex-direction: column;
+    }
+    .banner-right-side,
+    .banner-left-side,
+    .habit-item,
+    .bmi-left-side,
+    .bmi-right-side,
+    .footer-left-side,
+    .footer-right-side
+    {
+        width: 100%;
+    }
+    .habit-top-content{
+        width: 80%;
+    }
+    .habit-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .left-inner-content, .bmi-top-content {
+        width: 90%;
+    }
+    .run-right-side img{
+        width: 80%;
+    }
+    .bmi-top-content p{
+        width: 75%;
+    }
+    .bmi-main-content{
+        display: block;
+        padding-top: 1px;
+    }
+    .run-left-side {
+        padding: 2.5rem;
+    }
+    .run-left-side h3 {
+        margin-top: 0;
+    }
+    .run-right-side {
+        text-align: center;
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .run-right-side img {
+        width: 100%;
+    }
+    .training-image-text-2 {
+        top: 90px;
+        left: 20px;
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .training-image-text-1 {
+        top: 115px;
+        left: 20px;
+        width: 80%;
+        font-size: 0.8rem;
+    }
+    .color-h3 {
+        font-size: 2rem;
+    }
+    .footer-right-side{
+        gap: 0;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    /* manuber style  */
+    .hamburger-menu{
+        display: block;
+    }
+    .hamburger-menu i{
+        color: white;
+    }
+    .nav-container>.menu-ber{
+        display: none;
+    }
+    /* banner style  */
+    .banner-container,
+    .habit-content,
+    .bmi-main-content,
+    .footer-content,
+    .footer-right-side,
+    .footer-right-side
+    {
+        flex-direction: column;
+    }
+    .banner-right-side, 
+    .habit-top-content,
+    .left-inner-content,
+    .run-right-side img,
+    .bmi-right-side,
+    .bmi-left-side,
+    .footer-left-side,
+    .footer-left-side p,
+    .footer-right-side,
+    .right-left-side,
+    .right-right-side
+    {
+        width: 100%;
+    }
+    .banner-left-side{
+        width: 100%;
+    }
+    .box-500{
+        left: 180px;
+        top: 90px;
+    }
+    .banner-left-side h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .text-shape{
+        font-size: 4rem;
+    }
+    .color-h3{
+        font-size: 2rem;
+    }
+    .color-h4{
+        font-size: 1.8rem;
+    }
+    .btn-share{
+        padding: 15px 30px;
+        font-size: 0.8rem;
+    }
+    .btn-share-1{
+        padding: 15px 40px;
+        font-size: 0.8rem;
+    }
+    .box-500 h4{
+        font-size: 1.5rem;
+    }
+    .box-500 p{
+        font-size: 0.5rem;
+    }
+    .box-350 h4{
+        font-size: 1rem;
+    }
+    .box-350 p{
+        font-size: 0.7rem;
+    }
+    /* Change Your Habits */
+    .habit-top-content h3{
+        font-size: 2.25rem;
+    }
+    .habit-item {
+        width: 100%;
+    }
+    .traingi-p{
+        width: 100%;
+    }
+
+    /* Run an Extra Mile Easily */
+    .run-container,
+    .bmi-top-content{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+    }
+    .run-left-side,
+    .run-right-side{
+        width: calc(100% - 5rem);
+    }
+    /*  Trainings and Exercises */
+    .grid-image .image-1 {
+        grid-column: 1/span 6;
+    }
+    .grid-image .image-2 {
+        grid-column: 7/span 6;
+    }
+    
+    .grid-image .image-3 {
+        grid-column: 1/span 6;
+    }
+    
+    .grid-image .image-4 {
+        grid-column: 7/span 6;
+    }
+    
+    .grid-image .image-5 {
+        grid-column: 1/span 6;
+    }
+    
+    .grid-image .image-6 {
+        grid-column: 7/span 6;
+    }
+    .training-p{
+    width: 80%;
+    }
+    .grid-image img {
+        height: 150px;
+    }
+    .training-image-text-1, .training-image-text-2 {
+        top: 99px;
+        left: 16px;
+        width: 79%;
+        font-size: 10px;
+    }
+
+    .run-btn{
+        margin: 20px auto;
+    }
+    form input, form option{
+        width: 87.5%;
+    }
+    .meet-image-contents{
+        grid-template-columns: 1fr;
+    }
+    .meet-our-team-p {
+        width: 100%;
+    }
+    .footer-right-side{
+        gap: 0;
+    }
+
+
+}
+    
+
+
