@@ -54,7 +54,7 @@ body {
     font-weight: 600;
 }
 
-/* navber section style */
+/* Navbar section style */
 .header-content{
     background-image: linear-gradient(360deg, black 10%, #ffffff2b 43%);
 }
@@ -99,62 +99,56 @@ body {
     display: none;
 }
 
-/* banner style  */
+/* Banner Section style  */
+
 .banner-container {
     display: flex;
     width: 90%;
     margin: 0 auto;
 }
 
-.banner-left-side {
+.banner-left-part{
     width: 50%;
 }
 
-.banner-left-side h1 {
+.banner-left-part h1 {
     color: #FFFFFF;
-    font-size: 4.8rem;
-    font-weight: 800;
+    font-size: 4.5rem;
+    font-weight: 900;
 }
 
-.banner-left-side p {
+.banner-left-part p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     width: 80%;
 }
 
-.text-shape {
+.shape-style {
     font-family: "Dancing Script", cursive;
     font-size: 6rem;
     font-weight: 700;
     font-style: italic;
 }
 
-.btn-parent {
+.banner-btn {
     display: flex;
     gap: 14px;
 }
 
-.banner-right-side {
+.banner-right-part {
     width: 50%;
     position: relative;
 }
 
-.banner-right-side-img {
+.banner-img {
     display: flex;
     justify-content: center;
 }
 
-.circle {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: #E6533C;
-}
-
-.box-350 {
+.card-1 {
     position: absolute;
     top: 410px;
-    left: 65px;
+    left: 130px;
     display: flex;
     gap: 10px;
     padding: 0 20px;
@@ -167,23 +161,31 @@ body {
     cursor: pointer;
 }
 
-.box-350 h4 {
+.card-1 h4 {
     font-size: 1.5rem;
     margin: 10px auto;
     font-weight: 600;
     color: #FAFAF9;
 }
 
-.box-350 p {
+.card-1 p {
     font-size: 1rem;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-.box-500 {
+.round-shape {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+
+
+.card-2 {
     position: absolute;
     top: 135px;
-    left: 315px;
+    left: 490px;
     padding: 5px 30px;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
@@ -194,14 +196,14 @@ body {
     cursor: pointer;
 }
 
-.box-500 h4 {
+.card-2 h4 {
     font-size: 2.2rem;
     margin: 5px auto;
     font-weight: 600;
     color: #FAFAF9;
 }
 
-.box-500 p {
+.card-2 p {
     font-size: 0.8rem;
     margin-top: 0;
     margin-bottom: 10px;
@@ -496,7 +498,7 @@ form select{
     top: 230px;
     left: 20px;
 }
-/* footer style  */
+/* footer section style  */
 .footer-section{
     background-color: #1b1a1a;
     margin-top: 50px;
@@ -510,10 +512,10 @@ form select{
     display: flex;
     margin-bottom: 3rem;
 }
-.logo-2 {
+.footer-logo {
     font-family: "Inter", sans-serif;
     color: #E6533C;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     font-style: italic;
     margin-bottom: 20px;

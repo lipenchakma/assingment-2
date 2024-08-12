@@ -4,8 +4,8 @@
     {
         flex-direction: column;
     }
-    .banner-right-side,
-    .banner-left-side,
+    .banner-left-part,
+    .banner-right-part,
     .habit-item,
     .bmi-left-side,
     .bmi-right-side,
@@ -96,10 +96,10 @@
     {
         flex-direction: column;
     }
-    .banner-right-side, 
+    .banner-right-part, 
     .habit-top-content,
     .left-inner-content,
-    .run-right-side img,
+    .run-right-part img,
     .bmi-right-side,
     .bmi-left-side,
     .footer-left-side,
@@ -110,18 +110,18 @@
     {
         width: 100%;
     }
-    .banner-left-side{
+    .banner-left-part{
         width: 100%;
     }
-    .box-500{
+    .card-2{
         left: 180px;
         top: 90px;
     }
-    .banner-left-side h1 {
+    .banner-left-part h1 {
         font-size: 3rem;
         font-weight: 500;
     }
-    .text-shape{
+    .shape-style{
         font-size: 4rem;
     }
     .color-h3{
@@ -130,24 +130,24 @@
     .color-h4{
         font-size: 1.8rem;
     }
-    .btn-share{
+    .btn-primary{
         padding: 15px 30px;
         font-size: 0.8rem;
     }
-    .btn-share-1{
+    .btn-secondary{
         padding: 15px 40px;
         font-size: 0.8rem;
     }
-    .box-500 h4{
+    .card-2 h4{
         font-size: 1.5rem;
     }
-    .box-500 p{
+    .card-2 p{
         font-size: 0.5rem;
     }
-    .box-350 h4{
+    .card-1 h4{
         font-size: 1rem;
     }
-    .box-350 p{
+    .card-1 p{
         font-size: 0.7rem;
     }
     /* Change Your Habits */
