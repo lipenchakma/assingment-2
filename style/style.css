@@ -121,6 +121,7 @@ body {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     width: 80%;
+    margin-bottom: 30px;
 }
 
 .shape-style {
@@ -204,25 +205,25 @@ body {
 }
 
 .card-2 p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
-/* Change Your Habits style  */
+/*  Habits Section style  */
 .habit-container {
     width: 90%;
     margin: 5rem auto;
     text-align: center;
 }
 
-.habit-top-content h3 {
-    margin-bottom: 10px;
-}
-
-.habit-top-content {
+.habit-title {
     width: 50%;
     margin: 0 auto;
+}
+
+.habit-title h3 {
+    margin-bottom: 10px;
 }
 
 .habit-content {
@@ -239,10 +240,6 @@ body {
 
 .habit-item {
     width: 20%;
-}
-
-.habit-item h5 {
-    margin-bottom: 0;
 }
 
 /* Run an Extra Mile Easily */

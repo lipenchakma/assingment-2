@@ -14,7 +14,17 @@
     {
         width: 100%;
     }
-    .habit-top-content{
+    .card-1 {
+        top: 360px;
+        left: 80px;
+    }
+
+    .card-2{
+        top: 135px;
+        left: 400px;
+    }
+
+    .habit-title {
         width: 80%;
     }
     .habit-content{
@@ -76,7 +86,7 @@
 
 @media screen and (max-width:576px) {
     
-    /* manuber style  */
+    /* Menubar Responsive  */
     .hamburger-menu{
         display: block;
     }
@@ -86,7 +96,7 @@
     .nav-container>.menu-ber{
         display: none;
     }
-    /* banner style  */
+    /* banner, habit, bmi, footer responsive */
     .banner-container,
     .habit-content,
     .bmi-main-content,
@@ -97,7 +107,7 @@
         flex-direction: column;
     }
     .banner-right-part, 
-    .habit-top-content,
+    .habit-title ,
     .left-inner-content,
     .run-right-part img,
     .bmi-right-side,
@@ -110,39 +120,41 @@
     {
         width: 100%;
     }
+
     .banner-left-part{
         width: 100%;
     }
-    .card-2{
-        left: 180px;
-        top: 90px;
-    }
+
     .banner-left-part h1 {
         font-size: 3rem;
         font-weight: 500;
     }
+
     .shape-style{
         font-size: 4rem;
     }
+
     .color-h3{
         font-size: 2rem;
     }
+
     .color-h4{
         font-size: 1.8rem;
     }
+
     .btn-primary{
         padding: 15px 30px;
         font-size: 0.8rem;
     }
+
     .btn-secondary{
         padding: 15px 40px;
         font-size: 0.8rem;
     }
-    .card-2 h4{
-        font-size: 1.5rem;
-    }
-    .card-2 p{
-        font-size: 0.5rem;
+
+    .card-1{
+        top: 280px;
+        left: 20px;
     }
     .card-1 h4{
         font-size: 1rem;
@@ -150,9 +162,21 @@
     .card-1 p{
         font-size: 0.7rem;
     }
-    /* Change Your Habits */
-    .habit-top-content h3{
-        font-size: 2.25rem;
+    .card-2{
+        left: 200px;
+        top: 90px;
+    }
+    
+    .card-2 h4{
+        font-size: 1.5rem;
+    }
+    .card-2 p{
+        font-size: 0.5rem;
+    }
+   
+    /* Habits Section responsive */
+    .habit-title h3{
+        font-size: 2.20rem;
     }
     .habit-item {
         width: 100%;
@@ -161,7 +185,7 @@
         width: 100%;
     }
 
-    /* Run an Extra Mile Easily */
+    /* Run Section Responsive */
     .run-container,
     .bmi-top-content{
         flex-direction: column;
@@ -172,7 +196,7 @@
     .run-right-side{
         width: calc(100% - 5rem);
     }
-    /*  Trainings and Exercises */
+    /*  Trainings and Exercises Section Responsive*/
     .grid-image .image-1 {
         grid-column: 1/span 6;
     }
