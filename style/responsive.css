@@ -87,6 +87,7 @@
 @media screen and (max-width:576px) {
     
     /* Menubar Responsive  */
+    
     .hamburger-menu{
         display: block;
     }
@@ -97,6 +98,7 @@
         display: none;
     }
     /* banner, habit, bmi, footer responsive */
+
     .banner-container,
     .habit-content,
     .bmi-main-content,
@@ -175,6 +177,7 @@
     }
    
     /* Habits Section responsive */
+
     .habit-title h3{
         font-size: 2.20rem;
     }
@@ -185,18 +188,26 @@
         width: 100%;
     }
 
-    /* Run Section Responsive */
+    /* Run, BMI Section Responsive */
+
     .run-container,
     .bmi-top-content{
         flex-direction: column;
         width: 90%;
         padding: 0;
     }
+
     .run-left-side,
     .run-right-side{
         width: calc(100% - 5rem);
     }
+
+    .run-right-side img {
+        width: 100%;
+    }
+
     /*  Trainings and Exercises Section Responsive*/
+
     .grid-image .image-1 {
         grid-column: 1/span 6;
     }

@@ -242,7 +242,7 @@ body {
     width: 20%;
 }
 
-/* Run an Extra Mile Easily */
+/* Run Section Style */
 .run-container {
     width: 90%;
     margin: 0 auto;
@@ -256,11 +256,11 @@ body {
     padding: 2.5rem;
 }
 
-.left-inner-content {
+.left-content {
     width: 80%;
 }
 
-.left-inner-content p {
+.left-content {
     line-height: 1.5;
 }
 
@@ -279,7 +279,8 @@ body {
 .run-left-side h3 {
     margin: 10px 0;
 }
-/* Trainings and Exercises */
+
+/* Trainings and Exercises Section Style */
 .training-container {
     width: 90%;
     margin: 0 auto;
