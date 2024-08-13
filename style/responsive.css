@@ -87,7 +87,7 @@
 @media screen and (max-width:576px) {
     
     /* Menubar Responsive  */
-    
+
     .hamburger-menu{
         display: block;
     }
@@ -208,32 +208,35 @@
 
     /*  Trainings and Exercises Section Responsive*/
 
-    .grid-image .image-1 {
+    .training-image .image-1 {
         grid-column: 1/span 6;
     }
-    .grid-image .image-2 {
+
+    .training-image .image-2 {
         grid-column: 7/span 6;
     }
     
-    .grid-image .image-3 {
+    .training-image .image-3 {
         grid-column: 1/span 6;
     }
     
-    .grid-image .image-4 {
+    .training-image .image-4 {
         grid-column: 7/span 6;
     }
     
-    .grid-image .image-5 {
+    .training-image .image-5 {
         grid-column: 1/span 6;
     }
     
-    .grid-image .image-6 {
+    .training-image .image-6 {
         grid-column: 7/span 6;
     }
-    .training-p{
+
+    .training-text{
     width: 80%;
     }
-    .grid-image img {
+
+    .training-image img {
         height: 150px;
     }
     .training-image-text-1, .training-image-text-2 {
