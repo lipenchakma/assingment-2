@@ -9,8 +9,8 @@
     .habit-item,
     .bmi-left-side,
     .bmi-right-side,
-    .footer-left-side,
-    .footer-right-side
+    .footer-left-content,
+    .footer-right-content
     {
         width: 100%;
     }
@@ -103,8 +103,7 @@
     .habit-content,
     .bmi-data,
     .footer-content,
-    .footer-right-side,
-    .footer-right-side
+    .footer-right-content
     {
         flex-direction: column;
     }
@@ -114,11 +113,11 @@
     .run-right-part img,
     .bmi-right-side,
     .bmi-left-side,
-    .footer-left-side,
-    .footer-left-side p,
-    .footer-right-side,
-    .right-left-side,
-    .right-right-side
+    .footer-left-content,
+    .footer-left-content p,
+    .footer-right-content,
+    .footer-data-left,
+    .footer-data-right
     {
         width: 100%;
     }
@@ -258,7 +257,7 @@
     .meet-our-team-p {
         width: 100%;
     }
-    .footer-right-side{
+    .footer-right-content{
         gap: 0;
     }
 }
