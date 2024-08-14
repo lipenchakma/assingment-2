@@ -446,12 +446,12 @@ form select{
 }
 
 
-/* Meet Our Team */
-.our-team-container{
+/* Team Section Style*/
+.team-container{
     width: 90%;
     margin: 0 auto;
 }
-.our-team-top-content{
+.team-title {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -459,14 +459,14 @@ form select{
     align-items: center;
     text-align: center;
 }
-.our-team-top-content h3{
+.team-title h3{
     margin-bottom: 20px;
     text-align: center;
 }
 .meet-our-team-p{
     width: 50%;
 }
-.meet-image-contents{
+.team-image-contents{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -474,25 +474,29 @@ form select{
     background-color: #1b1a1a;
     border-radius: 18px;
 }
-.meet-image img{
+
+.team-image{
+    position: relative;
+}
+
+.team-image img{
     width: 100%;
     height: 300px;
     border-radius: 8px;
 }
-.meet-trainer-about h5{
+
+.team-data h5{
     margin: 0;
     text-align: left;
 }
-.meet-trainer-p{
+.team-trainer-p {
     color: #B1B1AD;
     margin-top: 5px;
     font-size: 1rem;
     text-align: left;
 }
-.meet-image{
-    position: relative;
-}
-.meet-trainer-about{
+
+.team-data{
     position: absolute;
     top: 230px;
     left: 20px;

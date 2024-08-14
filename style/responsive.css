@@ -252,7 +252,7 @@
     form input, form option{
         width: 87.5%;
     }
-    .meet-image-contents{
+    .team-image-contents{
         grid-template-columns: 1fr;
     }
     .meet-our-team-p {
@@ -261,8 +261,6 @@
     .footer-right-side{
         gap: 0;
     }
-
-
 }
     
 
