@@ -348,13 +348,13 @@ body {
     width: 60%;
 }
 
-/* BMI Calculator */
-.bmi-top-content {
+/* BMI Section Style */
+.bmi-title {
     width: 50%;
     margin: 0 auto;
 }
 
-.bmi-top-content h3 {
+.bmi-title h3 {
     margin-top: 0;
     margin-bottom: 1.25rem;
 }
@@ -369,7 +369,7 @@ body {
     padding-bottom: 45px;
 }
 
-.bmi-main-content {
+.bmi-data {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -403,7 +403,7 @@ body {
     margin-bottom: 40px;
 }
 
-.form-div {
+.bmi-form {
     width: 100%;
     display: flex;
     gap: 10px;
@@ -432,7 +432,7 @@ form input,
     border: none;
     border-radius: 5px;
 }
-.bmi-main-content .bmi-button{
+.bmi-data .bmi-button{
     margin-top: 25px;
 }
 form select{
@@ -444,6 +444,8 @@ form select{
 ::placeholder{
     color: rgba(255, 255, 255, 0.6);
 }
+
+
 /* Meet Our Team */
 .our-team-container{
     width: 90%;
@@ -495,7 +497,7 @@ form select{
     top: 230px;
     left: 20px;
 }
-/* footer section style  */
+/* footer section style */
 .footer-section{
     background-color: #1b1a1a;
     margin-top: 50px;

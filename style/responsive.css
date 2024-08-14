@@ -31,16 +31,16 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .left-inner-content, .bmi-top-content {
+    .left-inner-content, .bmi-title {
         width: 90%;
     }
     .run-right-side img{
         width: 80%;
     }
-    .bmi-top-content p{
+    .bmi-title p{
         width: 75%;
     }
-    .bmi-main-content{
+    .bmi-data {
         display: block;
         padding-top: 1px;
     }
@@ -101,7 +101,7 @@
 
     .banner-container,
     .habit-content,
-    .bmi-main-content,
+    .bmi-data,
     .footer-content,
     .footer-right-side,
     .footer-right-side
@@ -191,7 +191,7 @@
     /* Run, BMI Section Responsive */
 
     .run-container,
-    .bmi-top-content{
+    .bmi-title{
         flex-direction: column;
         width: 90%;
         padding: 0;
